@@ -1,8 +1,8 @@
 package app.mcgg.rpn;
 
-import app.mcgg.rpn.Test.factory.Execute;
+import app.mcgg.rpn.processor.Parser;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Lookup;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -21,22 +21,23 @@ public class RpnApplication implements CommandLineRunner {
     @Autowired
     ApplicationContext ctx;
 
+    @Autowired
+    Parser parser;
+
+    @Value("${operator.enable}")
+    private String[] operators;
+
     @Override
     public void run(String... args) throws Exception {
 
-        String[] beanNames = ctx.getBeanDefinitionNames();
-        Arrays.sort(beanNames);
-        for (String beanName : beanNames) {
-            System.out.println(beanName);
-        }
-
+        System.out.println(Arrays.toString(operators));
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter: ");
-        Execute t = new Execute();
+
         while (scanner.hasNext()) {
             String formula = scanner.nextLine();
             //t.parseFormula(formula);
-
+            parser.parse(formula);
 
             System.out.println("Enter: ");
         }

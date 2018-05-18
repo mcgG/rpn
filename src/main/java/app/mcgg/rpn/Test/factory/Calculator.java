@@ -1,4 +1,4 @@
-package app.mcgg.rpn.factory;
+package app.mcgg.rpn.Test.factory;
 
 import java.math.BigDecimal;
 import java.util.HashMap;
@@ -15,7 +15,7 @@ public class Calculator {
         this.operator = operator;
         this.a = a;
         this.b = b;
-        map.put("+", "app.mcgg.rpn.factory.Add");
+        map.put("+", "Add");
     }
 
     public BigDecimal calc(){

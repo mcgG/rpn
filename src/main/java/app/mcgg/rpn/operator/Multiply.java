@@ -2,6 +2,8 @@ package app.mcgg.rpn.operator;
 
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
+
 @Service("*")
 public class Multiply implements Operator {
 
@@ -13,7 +15,7 @@ public class Multiply implements Operator {
     }
 
     @Override
-    public double calculate(double x, double y) {
-        return x * y;
+    public BigDecimal calculate(BigDecimal x, BigDecimal y) {
+        return x.multiply(y);
     }
 }

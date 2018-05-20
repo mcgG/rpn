@@ -23,7 +23,7 @@ public class Lookup {
     public Map<String, Operator> getMap() {
         if (map.isEmpty()) {
             for (String op : operators) {
-                map.put(op, (Operator) applicationContextProvider.getBeanByName(op));
+                map.put(op, applicationContextProvider.getBeanByName(op));
             }
         }
         return this.map;

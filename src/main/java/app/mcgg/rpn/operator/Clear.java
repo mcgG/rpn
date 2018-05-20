@@ -3,6 +3,8 @@ package app.mcgg.rpn.operator;
 import app.mcgg.rpn.exception.CalculatorException;
 import org.springframework.stereotype.Service;
 
+import java.math.BigDecimal;
+
 @Service("clear")
 public class Clear implements Operator {
 
@@ -14,7 +16,7 @@ public class Clear implements Operator {
     }
 
     @Override
-    public double calculate(double x, double y) throws CalculatorException {
+    public BigDecimal calculate(BigDecimal x, BigDecimal y) throws CalculatorException {
         throw new CalculatorException("Invalid operation!");
     }
 }

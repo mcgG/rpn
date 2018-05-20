@@ -2,8 +2,10 @@ package app.mcgg.rpn.operator;
 
 import app.mcgg.rpn.exception.CalculatorException;
 
+import java.math.BigDecimal;
+
 public interface Operator {
 
-    double calculate(double x, double y) throws CalculatorException;
-    public int getRequiredOperandsNumber();
+    BigDecimal calculate(BigDecimal x, BigDecimal y) throws CalculatorException;
+    int getRequiredOperandsNumber();
 }

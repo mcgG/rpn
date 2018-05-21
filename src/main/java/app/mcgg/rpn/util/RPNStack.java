@@ -17,29 +17,6 @@ public class RPNStack {
     private Stack<BigDecimal> history = new Stack<>();
     private int sp = 0;
 
-    public BigDecimal[] getOperands(Operator op) {
-        BigDecimal[] operands = new BigDecimal[2];
-        if (op.getRequiredOperandsNumber() > 1) {
-            operands[1] = pop(false);
-            operands[0] = pop(false);
-        } else {
-            operands[0] = pop(false);
-            operands[1] = null;
-        }
-        return operands;
-    }
-
-    public boolean checkOperandQuantity(Operator op) {
-        if (op.getRequiredOperandsNumber() > stack.size()) {
-            return false;
-        }
-        return true;
-    }
-
-    public void undo() {
-        pop(true);
-    }
-
     public void clear() {
         sp = 0;
         stack.clear();
@@ -85,7 +62,10 @@ public class RPNStack {
     public String toString() {
         ArrayList<Object> arrayList = new ArrayList<>(Arrays.asList(stack.toArray()));
         for (int i=0; i<arrayList.size(); i++) {
-            arrayList.set(i,((BigDecimal) arrayList.get(i)).setScale(10, RoundingMode.FLOOR).stripTrailingZeros());
+            arrayList.set(i,((BigDecimal) arrayList.get(i))
+                    .setScale(10, RoundingMode.FLOOR)
+                    .stripTrailingZeros()
+                    .toPlainString());
         }
        String rs = arrayList.toString();
        return rs.substring(1, rs.length()-1);

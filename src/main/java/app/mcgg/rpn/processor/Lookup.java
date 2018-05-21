@@ -15,18 +15,27 @@ public class Lookup {
     @Autowired
     private ApplicationContextProvider applicationContextProvider;
 
-    @Value("${operator.enable}")
-    private String[] operators;
+
+    @Value("${operator.operand}")
+    private String[] operand;
+
+    @Value("${operator.stack}")
+    private String[] stack;
 
     private Map<String, Operator> map = new HashMap<>();
 
+    private void setup(String[] ops) {
+        for (String op : ops) {
+            map.put(op, applicationContextProvider.getBeanByName(op));
+        }
+    }
+
     public Map<String, Operator> getMap() {
         if (map.isEmpty()) {
-            for (String op : operators) {
-                map.put(op, applicationContextProvider.getBeanByName(op));
-            }
+            setup(operand);
+            setup(stack);
         }
-        return this.map;
+        return map;
     }
 
 }

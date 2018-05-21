@@ -21,10 +21,10 @@ public class Sqrt implements Operator {
     }
 
     @Override
-    public BigDecimal calculate(BigDecimal x, BigDecimal y) throws CalculatorException{
+    public BigDecimal calculate(BigDecimal x, BigDecimal y) {
         BigDecimal num = x == null ? y : x;
         if (num.compareTo(BigDecimal.ZERO) < 0) {
-            throw new CalculatorException("Cannot square root negative number!");
+            throw new ArithmeticException("Cannot square root negative number!");
         }
 //
 //        String numStr = num.toString();

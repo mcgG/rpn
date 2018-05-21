@@ -1,6 +1,5 @@
 package app.mcgg.rpn.operator;
 
-import app.mcgg.rpn.exception.CalculatorException;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
@@ -16,7 +15,7 @@ public class Undo implements Operator {
     }
 
     @Override
-    public BigDecimal calculate(BigDecimal x, BigDecimal y) throws CalculatorException {
-        throw new CalculatorException("Invalid operation!");
+    public BigDecimal calculate(BigDecimal x, BigDecimal y) {
+        throw new ArithmeticException("Invalid operation!");
     }
 }

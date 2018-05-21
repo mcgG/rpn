@@ -18,7 +18,7 @@ public class RpnApplication implements CommandLineRunner {
     }
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter: ");

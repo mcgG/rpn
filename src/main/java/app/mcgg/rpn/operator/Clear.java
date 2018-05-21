@@ -16,7 +16,7 @@ public class Clear implements Operator {
     }
 
     @Override
-    public BigDecimal calculate(BigDecimal x, BigDecimal y) throws CalculatorException {
-        throw new CalculatorException("Invalid operation!");
+    public BigDecimal calculate(BigDecimal x, BigDecimal y) {
+        throw new ArithmeticException("Invalid operation!");
     }
 }

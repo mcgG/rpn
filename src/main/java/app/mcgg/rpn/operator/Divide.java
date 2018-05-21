@@ -21,9 +21,9 @@ public class Divide implements Operator {
     }
 
     @Override
-    public BigDecimal calculate(BigDecimal x, BigDecimal y) throws CalculatorException {
+    public BigDecimal calculate(BigDecimal x, BigDecimal y) {
         if (y.compareTo(BigDecimal.ZERO) == 0) {
-            throw new CalculatorException("Cannot divide by 0!");
+            throw new ArithmeticException("Cannot divide by 0!");
         }
         return x.divide(y, new MathContext(precision));
     }

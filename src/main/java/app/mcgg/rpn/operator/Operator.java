@@ -6,6 +6,6 @@ import java.math.BigDecimal;
 
 public interface Operator {
 
-    BigDecimal calculate(BigDecimal x, BigDecimal y) throws CalculatorException;
+    BigDecimal calculate(BigDecimal x, BigDecimal y);
     int getRequiredOperandsNumber();
 }

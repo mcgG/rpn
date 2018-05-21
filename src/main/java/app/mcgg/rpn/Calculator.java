@@ -4,12 +4,17 @@ import app.mcgg.rpn.exception.CalculatorException;
 import app.mcgg.rpn.operator.Operator;
 import app.mcgg.rpn.processor.Lookup;
 import app.mcgg.rpn.processor.Parser;
-import app.mcgg.rpn.util.RPNStack;
+import app.mcgg.rpn.processor.StackProcessor;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
+import java.lang.reflect.Method;
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.logging.Logger;
 
 
 /*
@@ -26,62 +31,48 @@ public class Calculator {
     private Lookup lookup;
 
     @Autowired
-    private RPNStack stack;
+    private StackProcessor stackProcessor;
 
-    /*
-        1. Check if there is an empty stack: stack.isEmpty()
-        2. Search for operator object;
-     */
+
     private void processOperator(String operator) throws CalculatorException {
 
         Operator op = lookup.getMap().get(operator);
         if (op == null) {
-            System.out.println("[debug] " + stack.toString());
-            throw new CalculatorException(String.format(
-                    "operator %s (position: %d): invalid operator",
-                    operator,
-                    stack.getSp()));
+//            System.out.println("[debug] " + stackProcessor.getStackString());
+            throw new CalculatorException(operator, stackProcessor.getSP(), "invalid operator");
         }
 
         // Undo
-        if (op.getClass().getSimpleName().equals("Undo")) {
-            stack.undo();
-            System.out.println("[debug] " + stack.toString());
+        if (op.getClass().getSimpleName().contains("Undo")) {
+            stackProcessor.undo();
+//            System.out.println("[debug] " + stackProcessor.getStackString());
             return;
         }
 
         // Clear
-        System.out.println(op.getClass().getSimpleName());
-        if (op.getClass().getSimpleName().equals("Clear")) {
-            stack.clear();
-            System.out.println("[debug] " + stack.toString());
+        if (op.getClass().getSimpleName().contains("Clear")) {
+            stackProcessor.clear();
+//            System.out.println("[debug] " + stackProcessor.getStackString());
             return;
         }
 
         // To check number is sufficient or not
-        if (!stack.checkOperandQuantity(op)) {
-            throw new CalculatorException(String.format(
-                    "operator %s (position: %d): insufficient parameters",
-                    operator,
-                    stack.getSp() + op.getRequiredOperandsNumber()));
+        if (!stackProcessor.checkOperandQuantity(op)) {
+            throw new CalculatorException(operator, stackProcessor.getSP() + op.getRequiredOperandsNumber(), "insufficient operands");
         }
 
-        BigDecimal[] operands = stack.getOperands(op);
+        BigDecimal[] operands = stackProcessor.getOperands(op);
         BigDecimal rs;
         try {
             rs = op.calculate(operands[0], operands[1]);
-        } catch (CalculatorException e) {
-            throw new CalculatorException(String.format(
-                    "operator %s (position: %d): %s",
-                    operator,
-                    stack.getSp() + op.getRequiredOperandsNumber(),
-                    e.getMessage()));
+        } catch (ArithmeticException e) {
+            throw new CalculatorException(operator, stackProcessor.getSP() + op.getRequiredOperandsNumber(), e.getMessage());
         }
 
         if (rs != null) {
-            stack.push(rs);
+            stackProcessor.push(rs);
         }
-        System.out.println("[debug] " + stack.toString());
+//        System.out.println("[debug] " + stackProcessor.getStackString());
     }
 
     private void processElement(String element) throws CalculatorException{
@@ -89,13 +80,14 @@ public class Calculator {
         if (value == null) {
             processOperator(element);
         } else {
-            stack.push(value);
-            System.out.println("[debug] " + stack.toString());
+            stackProcessor.push(value);
+//            System.out.println("[debug] " + stackProcessor.getStackString());
         }
     }
     
-    public boolean eval(String formula) {
-        String[] items = formula.split("\\s+");
+    public String eval(String formula) {
+        String[] items = Arrays.stream(formula.split("\\s+"))
+                        .filter(s -> !s.isEmpty()).toArray(String[]::new);
         System.out.println("|************************************|");
         System.out.println(Arrays.toString(items));
         for (String item : items) {
@@ -103,10 +95,10 @@ public class Calculator {
                 processElement(item);
             } catch (CalculatorException e) {
                 System.out.println(e.getMessage());
-                return false;
+                return e.getMessage();
             }
         }
-        return true;
+        return stackProcessor.getStackString();
     }
 
 }

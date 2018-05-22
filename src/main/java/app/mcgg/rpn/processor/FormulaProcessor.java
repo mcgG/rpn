@@ -7,19 +7,22 @@ import app.mcgg.rpn.util.Parser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.lang.reflect.Parameter;
 import java.math.BigDecimal;
+import java.util.EmptyStackException;
 
 @Service
 public class FormulaProcessor {
 
-    @Autowired
     private Parser parser;
-
-    @Autowired
     private BeanCache lookup;
-
-    @Autowired
     private StackProcessor stackProcessor;
+
+    public FormulaProcessor(Parser parser, BeanCache lookup, StackProcessor stackProcessor) {
+        this.parser = parser;
+        this.lookup = lookup;
+        this.stackProcessor = stackProcessor;
+    }
 
     protected BigDecimal processElement(String element) throws CalculatorException {
         BigDecimal value = parser.parseDouble(element);
@@ -36,14 +39,18 @@ public class FormulaProcessor {
             throw new CalculatorException(operator, stackProcessor.getSP(), "invalid operator");
         }
 
-        // Undo
-        if (op.getClass().getSimpleName().contains("Undo")) {
-            stackProcessor.undo();
+        // Undo operator to judge
+        if (operator.equals("undo")) {
+            try {
+                stackProcessor.undo();
+            } catch (EmptyStackException e) {
+                throw new CalculatorException(operator, stackProcessor.getSP(), "insufficient operands");
+            }
             return null;
         }
 
         // Clear
-        if (op.getClass().getSimpleName().contains("Clear")) {
+        if (operator.equals("clear")) {
             stackProcessor.clear();
             return null;
         }
@@ -54,19 +61,20 @@ public class FormulaProcessor {
         return operator;
     }
 
-    protected void processCalculation(String operator) throws CalculatorException {
+    protected BigDecimal processCalculation(String operator) throws CalculatorException {
         Operator op = lookup.getMap().get(operator);
         BigDecimal[] operands = stackProcessor.getOperands(op);
         BigDecimal rs;
         try {
             rs = op.calculate(operands[0], operands[1]);
         } catch (ArithmeticException e) {
-            throw new CalculatorException(operator, stackProcessor.getSP() + op.getRequiredOperandsNumber(), e.getMessage());
+            throw new CalculatorException(operator, stackProcessor.getSP() + 1, e.getMessage());
         }
 
         if (rs != null) {
             stackProcessor.push(rs);
         }
+        return rs;
     }
 
     protected String getStack() {

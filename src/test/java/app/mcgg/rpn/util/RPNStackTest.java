@@ -2,20 +2,18 @@ package app.mcgg.rpn.util;
 
 import app.mcgg.rpn.testUtil.Reflection;
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeEach;
 
 import java.math.BigDecimal;
 import java.util.EmptyStackException;
 import java.util.Stack;
 
+/*
+ * Doing Mock without Mockito framework,
+ * use Reflection to Inject dependencies instead
+ */
 public class RPNStackTest {
 
     private RPNStack stack = new RPNStack();
-
-    @BeforeEach
-    public void setup() {
-        stack = new RPNStack();
-    }
 
     @Test
     public void testClear() {
@@ -66,6 +64,11 @@ public class RPNStackTest {
         stack.pop(true);
         stack.pop(false);
         assert(stack.getSp() == 4);
+    }
+
+    @Test(expected = EmptyStackException.class)
+    public void testGetSpThrowException() {
+        stack.pop(true);
     }
 
     @Test

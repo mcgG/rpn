@@ -2,7 +2,6 @@ package app.mcgg.rpn.processor;
 
 import app.mcgg.rpn.operator.Operator;
 import app.mcgg.rpn.util.RPNStack;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
@@ -10,8 +9,11 @@ import java.math.BigDecimal;
 @Service
 public class StackProcessor {
 
-    @Autowired
     private RPNStack stack;
+
+    public StackProcessor(RPNStack stack) {
+        this.stack = stack;
+    }
 
     public boolean checkOperandQuantity(Operator op) {
         return op.getRequiredOperandsNumber() <= stack.size();

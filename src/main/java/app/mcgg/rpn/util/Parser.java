@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 @Service
 public class Parser {
 
-    public static BigDecimal parseDouble(String str) {
+    public BigDecimal parseDouble(String str) {
         try {
             return new BigDecimal(str);
         } catch (NumberFormatException e) {

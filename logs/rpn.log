@@ -1,260 +1,66 @@
-05-22 16:49:30.840 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:49:30.841 [INFO] [                         a.m.r.a.Aspects: 25] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34]
-05-22 16:49:30.842 [WARN] [                         a.m.r.a.Aspects: 60] - operator null (position: 13): invalid operator
-05-22 16:49:30.843 [WARN] [                         a.m.r.a.Aspects: 61] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34]
-05-22 16:49:30.843 [WARN] [                         a.m.r.a.Aspects: 62] - =============+[Calculation Finished with error]+===============
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 25] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34]
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34 32] Push
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34 32 4] Push
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34 32 4 5] Push
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34 32 4 5 6] Push
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34 32 4 5 6 1] Push
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34 32 4 5 6 1 4] Push
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34 32 4 5 6 1 4 5] Push
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34 32 4 5 6 1 4 5 6] Push
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34 32 4 5 6 1 4 5 6 5] Push
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34 32 4 5 6 1 4 5 6 5 2] Push
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34 32 4 5 6 1 4 5 6 5 2 1] Push
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34 32 4 5 6 1 4 5 6 5 2 1 1] Push
-05-22 16:49:32.719 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34 32 4 5 6 1 4 5 6 5 2 1 1 34] Push
-05-22 16:49:32.719 [WARN] [                         a.m.r.a.Aspects: 60] - operator null (position: 26): invalid operator
-05-22 16:49:32.719 [WARN] [                         a.m.r.a.Aspects: 61] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34 32 4 5 6 1 4 5 6 5 2 1 1 34]
-05-22 16:49:32.719 [WARN] [                         a.m.r.a.Aspects: 62] - =============+[Calculation Finished with error]+===============
-05-22 16:50:39.482 [INFO] [                    a.m.r.RpnApplication: 50] - Starting RpnApplication on CNENZHAOK2L2C with PID 12132 (C:\Users\zhaok2\src\rpn\target\classes started by zhaok2 in C:\Users\zhaok2\src\rpn)
-05-22 16:50:39.482 [INFO] [                    a.m.r.RpnApplication:659] - No active profile set, falling back to default profiles: default
-05-22 16:50:39.529 [INFO] [s.c.a.AnnotationConfigApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6ebf137f: startup date [Tue May 22 16:50:39 CST 2018]; root of context hierarchy
-05-22 16:50:40.810 [INFO] [      o.s.b.d.a.OptionalLiveReloadServer: 57] - LiveReload server is running on port 35729
-05-22 16:50:40.842 [INFO] [       o.s.j.e.a.AnnotationMBeanExporter:433] - Registering beans for JMX exposure on startup
-05-22 16:50:40.857 [INFO] [                    a.m.r.RpnApplication: 59] - Started RpnApplication in 1.892 seconds (JVM running for 4.091)
-05-22 16:50:44.566 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:50:44.581 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 16:50:44.581 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [1] Push
-05-22 16:50:44.581 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [1 2] Push
-05-22 16:50:44.581 [WARN] [                         a.m.r.a.Aspects: 60] - operator null (position: 2): invalid operator
-05-22 16:50:44.581 [WARN] [                         a.m.r.a.Aspects: 61] - stack: [1 2]
-05-22 16:50:44.581 [WARN] [                         a.m.r.a.Aspects: 62] - =============+[Calculation Finished with error]+===============
-05-22 16:51:23.667 [INFO] [                    a.m.r.RpnApplication: 50] - Starting RpnApplication on CNENZHAOK2L2C with PID 18344 (C:\Users\zhaok2\src\rpn\target\classes started by zhaok2 in C:\Users\zhaok2\src\rpn)
-05-22 16:51:23.670 [INFO] [                    a.m.r.RpnApplication:659] - No active profile set, falling back to default profiles: default
-05-22 16:51:23.712 [INFO] [s.c.a.AnnotationConfigApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@11730886: startup date [Tue May 22 16:51:23 CST 2018]; root of context hierarchy
-05-22 16:51:24.751 [INFO] [      o.s.b.d.a.OptionalLiveReloadServer: 57] - LiveReload server is running on port 35729
-05-22 16:51:24.769 [INFO] [       o.s.j.e.a.AnnotationMBeanExporter:433] - Registering beans for JMX exposure on startup
-05-22 16:51:24.784 [INFO] [                    a.m.r.RpnApplication: 59] - Started RpnApplication in 1.554 seconds (JVM running for 3.878)
-05-22 16:51:28.883 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:51:28.890 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 16:51:28.900 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [1] Push
-05-22 16:51:28.900 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [1 2] Push
-05-22 16:51:28.903 [WARN] [                         a.m.r.a.Aspects: 60] - operator null (position: 2): invalid operator
-05-22 16:51:28.903 [WARN] [                         a.m.r.a.Aspects: 61] - stack: [1 2]
-05-22 16:51:28.904 [WARN] [                         a.m.r.a.Aspects: 62] - =============+[Calculation Finished with error]+===============
-05-22 16:56:12.832 [INFO] [                    a.m.r.RpnApplication: 50] - Starting RpnApplication on CNENZHAOK2L2C with PID 4648 (C:\Users\zhaok2\src\rpn\target\classes started by zhaok2 in C:\Users\zhaok2\src\rpn)
-05-22 16:56:12.838 [INFO] [                    a.m.r.RpnApplication:659] - No active profile set, falling back to default profiles: default
-05-22 16:56:12.889 [INFO] [s.c.a.AnnotationConfigApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@40949005: startup date [Tue May 22 16:56:12 CST 2018]; root of context hierarchy
-05-22 16:56:14.050 [INFO] [      o.s.b.d.a.OptionalLiveReloadServer: 57] - LiveReload server is running on port 35729
-05-22 16:56:14.073 [INFO] [       o.s.j.e.a.AnnotationMBeanExporter:433] - Registering beans for JMX exposure on startup
-05-22 16:56:14.089 [INFO] [                    a.m.r.RpnApplication: 59] - Started RpnApplication in 1.701 seconds (JVM running for 4.188)
-05-22 16:56:16.966 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:56:16.977 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 16:56:16.986 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [1] Push
-05-22 16:56:16.986 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [1 2] Push
-05-22 16:56:17.011 [INFO] [                         a.m.r.a.Aspects: 33] - stack: []	 Detail: 1 Add 2
-05-22 16:56:17.011 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [3] Push
-05-22 16:56:17.013 [INFO] [                         a.m.r.a.Aspects: 53] - result stack: [3]
-05-22 16:56:17.013 [INFO] [                         a.m.r.a.Aspects: 54] - =============+[Calculation Finished]+===============
-05-22 16:56:20.513 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:56:20.514 [INFO] [                         a.m.r.a.Aspects: 25] - stack: [3]
-05-22 16:56:20.516 [INFO] [                         a.m.r.a.Aspects: 43] - stack: [3] Clear
-05-22 16:56:20.520 [INFO] [                         a.m.r.a.Aspects: 53] - result stack: []
-05-22 16:56:20.520 [INFO] [                         a.m.r.a.Aspects: 54] - =============+[Calculation Finished]+===============
-05-22 16:56:33.511 [INFO] [                    a.m.r.RpnApplication: 50] - Starting RpnApplication on CNENZHAOK2L2C with PID 14560 (C:\Users\zhaok2\src\rpn\target\classes started by zhaok2 in C:\Users\zhaok2\src\rpn)
-05-22 16:56:33.527 [INFO] [                    a.m.r.RpnApplication:659] - No active profile set, falling back to default profiles: default
-05-22 16:56:33.626 [INFO] [s.c.a.AnnotationConfigApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1b9ea467: startup date [Tue May 22 16:56:33 CST 2018]; root of context hierarchy
-05-22 16:56:35.049 [INFO] [      o.s.b.d.a.OptionalLiveReloadServer: 57] - LiveReload server is running on port 35729
-05-22 16:56:35.077 [INFO] [       o.s.j.e.a.AnnotationMBeanExporter:433] - Registering beans for JMX exposure on startup
-05-22 16:56:35.081 [INFO] [                    a.m.r.RpnApplication: 59] - Started RpnApplication in 2.212 seconds (JVM running for 4.468)
-05-22 16:56:37.748 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:56:37.764 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 16:56:37.772 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32] Push
-05-22 16:56:37.773 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4] Push
-05-22 16:56:37.773 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5] Push
-05-22 16:56:37.773 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6] Push
-05-22 16:56:37.774 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1] Push
-05-22 16:56:37.774 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4] Push
-05-22 16:56:37.774 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5] Push
-05-22 16:56:37.775 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6] Push
-05-22 16:56:37.775 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5] Push
-05-22 16:56:37.775 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2] Push
-05-22 16:56:37.776 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1] Push
-05-22 16:56:37.776 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1] Push
-05-22 16:56:37.778 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34] Push
-05-22 16:56:37.785 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2 1]	 Detail: 1 Divide 34
-05-22 16:56:37.785 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 0.0294117647] Push
-05-22 16:56:37.785 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2]	 Detail: 1 Divide 0.0294117647058824
-05-22 16:56:37.785 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 33.9999999999] Push
-05-22 16:56:37.801 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5]	 Detail: 2 Multiply 33.9999999999999
-05-22 16:56:37.801 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 67.9999999999] Push
-05-22 16:56:37.801 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 5 Multiply 67.9999999999998
-05-22 16:56:37.801 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 339.9999999999] Push
-05-22 16:56:37.801 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 339.9999999999990 Sqrt 
-05-22 16:56:37.801 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 18.4390889145] Push
-05-22 16:56:37.801 [INFO] [                         a.m.r.a.Aspects: 38] - stack: 32 4 5 6 1 4 5 6 18.4390889145 Undo
-05-22 16:56:37.801 [INFO] [                         a.m.r.a.Aspects: 38] - stack: 32 4 5 6 1 4 5 6 339.9999999999 Undo
-05-22 16:56:37.801 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 5 Add 67.9999999999998
-05-22 16:56:37.801 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 72.9999999999] Push
-05-22 16:56:37.818 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5]	 Detail: 6 Subtract 72.9999999999998
-05-22 16:56:37.818 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 -67] Push
-05-22 16:56:37.819 [INFO] [                         a.m.r.a.Aspects: 53] - result stack: [32 4 5 6 1 4 5 -67]
-05-22 16:56:37.819 [INFO] [                         a.m.r.a.Aspects: 54] - =============+[Calculation Finished]+===============
-05-22 16:57:00.392 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:57:00.392 [INFO] [                         a.m.r.a.Aspects: 25] - stack: [32 4 5 6 1 4 5 -67]
-05-22 16:57:00.392 [INFO] [                         a.m.r.a.Aspects: 43] - stack: [32 4 5 6 1 4 5 -67] Clear
-05-22 16:57:00.392 [INFO] [                         a.m.r.a.Aspects: 53] - result stack: []
-05-22 16:57:00.392 [INFO] [                         a.m.r.a.Aspects: 54] - =============+[Calculation Finished]+===============
-05-22 16:57:04.912 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:57:04.913 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 16:57:04.913 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32] Push
-05-22 16:57:04.913 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4] Push
-05-22 16:57:04.914 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5] Push
-05-22 16:57:04.915 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6] Push
-05-22 16:57:04.915 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1] Push
-05-22 16:57:04.916 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4] Push
-05-22 16:57:04.916 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5] Push
-05-22 16:57:04.917 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6] Push
-05-22 16:57:04.917 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5] Push
-05-22 16:57:04.918 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2] Push
-05-22 16:57:04.918 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1] Push
-05-22 16:57:04.919 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1] Push
-05-22 16:57:04.920 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34] Push
-05-22 16:57:04.920 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2 1]	 Detail: 1 Divide 34
-05-22 16:57:04.921 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 0.0294117647] Push
-05-22 16:57:04.922 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2]	 Detail: 1 Divide 0.0294117647058824
-05-22 16:57:04.922 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 33.9999999999] Push
-05-22 16:57:04.922 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5]	 Detail: 2 Multiply 33.9999999999999
-05-22 16:57:04.923 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 67.9999999999] Push
-05-22 16:57:04.923 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 5 Multiply 67.9999999999998
-05-22 16:57:04.924 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 339.9999999999] Push
-05-22 16:57:04.924 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 339.9999999999990 Sqrt 
-05-22 16:57:04.924 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 18.4390889145] Push
-05-22 16:57:04.925 [INFO] [                         a.m.r.a.Aspects: 38] - stack: 32 4 5 6 1 4 5 6 18.4390889145 Undo
-05-22 16:57:04.925 [INFO] [                         a.m.r.a.Aspects: 38] - stack: 32 4 5 6 1 4 5 6 339.9999999999 Undo
-05-22 16:57:04.926 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 5 Add 67.9999999999998
-05-22 16:57:04.926 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 72.9999999999] Push
-05-22 16:57:04.926 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5]	 Detail: 6 Subtract 72.9999999999998
-05-22 16:57:04.926 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 -67] Push
-05-22 16:57:04.927 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5]	 Detail: -66.9999999999998 Sqrt 
-05-22 16:57:04.927 [WARN] [                         a.m.r.a.Aspects: 60] - operator sqrt (position: 37): Cannot square root negative number!
-05-22 16:57:04.928 [WARN] [                         a.m.r.a.Aspects: 61] - stack: [32 4 5 6 1 4 5]
-05-22 16:57:04.928 [WARN] [                         a.m.r.a.Aspects: 62] - =============+[Calculation Finished with error]+===============
-05-22 16:57:19.518 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:57:19.519 [INFO] [                         a.m.r.a.Aspects: 25] - stack: [32 4 5 6 1 4 5]
-05-22 16:57:19.519 [INFO] [                         a.m.r.a.Aspects: 43] - stack: [32 4 5 6 1 4 5] Clear
-05-22 16:57:19.519 [INFO] [                         a.m.r.a.Aspects: 53] - result stack: []
-05-22 16:57:19.520 [INFO] [                         a.m.r.a.Aspects: 54] - =============+[Calculation Finished]+===============
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2 1]	 Detail: 1 Divide 34
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 0.0294117647] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2]	 Detail: 1 Divide 0.0294117647058824
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 33.9999999999] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5]	 Detail: 2 Multiply 33.9999999999999
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 67.9999999999] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 5 Multiply 67.9999999999998
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 339.9999999999] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 339.9999999999990 Sqrt 
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 18.4390889145] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 38] - stack: 32 4 5 6 1 4 5 6 18.4390889145 Undo
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 38] - stack: 32 4 5 6 1 4 5 6 339.9999999999 Undo
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 5 Add 67.9999999999998
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 72.9999999999] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5]	 Detail: 6 Subtract 72.9999999999998
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 -67] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4]	 Detail: 5 Subtract -66.9999999999998
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 71.9999999999] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4]	 Detail: 71.9999999999998 Sqrt 
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 8.4852813742] Push
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 53] - result stack: [32 4 5 6 1 4 8.4852813742]
-05-22 16:57:32.552 [INFO] [                         a.m.r.a.Aspects: 54] - =============+[Calculation Finished]+===============
-05-22 16:57:56.351 [INFO] [                    a.m.r.RpnApplication: 50] - Starting RpnApplication on CNENZHAOK2L2C with PID 18076 (C:\Users\zhaok2\src\rpn\target\classes started by zhaok2 in C:\Users\zhaok2\src\rpn)
-05-22 16:57:56.357 [INFO] [                    a.m.r.RpnApplication:659] - No active profile set, falling back to default profiles: default
-05-22 16:57:56.419 [INFO] [s.c.a.AnnotationConfigApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5d7d6a9c: startup date [Tue May 22 16:57:56 CST 2018]; root of context hierarchy
-05-22 16:57:58.111 [INFO] [      o.s.b.d.a.OptionalLiveReloadServer: 57] - LiveReload server is running on port 35729
-05-22 16:57:58.152 [INFO] [       o.s.j.e.a.AnnotationMBeanExporter:433] - Registering beans for JMX exposure on startup
-05-22 16:57:58.172 [INFO] [                    a.m.r.RpnApplication: 59] - Started RpnApplication in 2.469 seconds (JVM running for 4.555)
-05-22 16:57:59.758 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:57:59.776 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 16:57:59.777 [WARN] [                         a.m.r.a.Aspects: 60] - operator //calculate(operator); (position: 0): invalid operator
-05-22 16:57:59.777 [WARN] [                         a.m.r.a.Aspects: 61] - stack: []
-05-22 16:57:59.777 [WARN] [                         a.m.r.a.Aspects: 62] - =============+[Calculation Finished with error]+===============
-05-22 16:58:06.688 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:58:06.689 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 16:58:06.691 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32] Push
-05-22 16:58:06.692 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4] Push
-05-22 16:58:06.692 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5] Push
-05-22 16:58:06.693 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6] Push
-05-22 16:58:06.693 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1] Push
-05-22 16:58:06.694 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4] Push
-05-22 16:58:06.694 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5] Push
-05-22 16:58:06.695 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6] Push
-05-22 16:58:06.695 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5] Push
-05-22 16:58:06.696 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2] Push
-05-22 16:58:06.696 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1] Push
-05-22 16:58:06.697 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1] Push
-05-22 16:58:06.697 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34] Push
-05-22 16:58:06.718 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2 1]	 Detail: 1 Divide 34
-05-22 16:58:06.718 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 0.0294117647] Push
-05-22 16:58:06.719 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2]	 Detail: 1 Divide 0.0294117647058824
-05-22 16:58:06.719 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 33.9999999999] Push
-05-22 16:58:06.724 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5]	 Detail: 2 Multiply 33.9999999999999
-05-22 16:58:06.725 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 67.9999999999] Push
-05-22 16:58:06.725 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 5 Multiply 67.9999999999998
-05-22 16:58:06.725 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 339.9999999999] Push
-05-22 16:58:06.729 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 339.9999999999990 Sqrt 
-05-22 16:58:06.730 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 18.4390889145] Push
-05-22 16:58:06.730 [INFO] [                         a.m.r.a.Aspects: 38] - stack: 32 4 5 6 1 4 5 6 18.4390889145 Undo
-05-22 16:58:06.731 [WARN] [                         a.m.r.a.Aspects: 60] - null
-05-22 16:58:06.731 [WARN] [                         a.m.r.a.Aspects: 61] - stack: [32 4 5 6 1 4 5 6 339.9999999999]
-05-22 16:58:06.731 [WARN] [                         a.m.r.a.Aspects: 62] - =============+[Calculation Finished with error]+===============
-05-22 16:58:06.734 [INFO] [ConditionEvaluationReportLoggingListener:101] - 
+[32m05-23 00:28:57.491 [INFO] [a.m.r.RpnApplication: 50] - Starting RpnApplication on m.local with PID 25789 (/Users/mcgg/IdeaProjects/rpn/target/classes started by mcgg in /Users/mcgg/IdeaProjects/rpn)
+[m[32m05-23 00:28:57.494 [INFO] [a.m.r.RpnApplication:659] - No active profile set, falling back to default profiles: default
+[m[32m05-23 00:28:57.522 [INFO] [igApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@25fbc5f9: startup date [Wed May 23 00:28:57 CST 2018]; root of context hierarchy
+[m[32m05-23 00:28:58.146 [INFO] [onalLiveReloadServer: 57] - LiveReload server is running on port 35729
+[m[32m05-23 00:28:58.164 [INFO] [otationMBeanExporter:433] - Registering beans for JMX exposure on startup
+[m[32m05-23 00:28:58.177 [INFO] [a.m.r.RpnApplication: 59] - Started RpnApplication in 0.847 seconds (JVM running for 6.591)
+[m[32m05-23 00:29:17.191 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:29:17.197 [INFO] [     a.m.r.a.Aspects: 28] - stack: []
+[m[32m05-23 00:29:17.202 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1] Detail: Push
+[m[32m05-23 00:29:17.202 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2] Detail: Push
+[m[32m05-23 00:29:17.202 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3] Detail: Push
+[m[32m05-23 00:29:17.203 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3 4] Detail: Push
+[m[32m05-23 00:29:17.203 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3 4 5] Detail: Push
+[m[32m05-23 00:29:17.207 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1 2 3] Detail: 4 Divide 5
+[m[32m05-23 00:29:17.208 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3 0.8] Detail: Push
+[m[32m05-23 00:29:17.211 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1 2] Detail: 3 Add 0.8
+[m[32m05-23 00:29:17.212 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3.8] Detail: Push
+[m[32m05-23 00:29:17.212 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3.8 0] Detail: Push
+[m[32m05-23 00:29:17.213 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1 2] Detail: 3.8 Divide 0
+[m[34m05-23 00:29:17.213 [WARN] [     a.m.r.a.Aspects: 63] - operator / (position: 16): Cannot divide by 0!
+[m[34m05-23 00:29:17.213 [WARN] [     a.m.r.a.Aspects: 64] - stack: [1 2]
+[m[34m05-23 00:29:17.214 [WARN] [     a.m.r.a.Aspects: 65] - =============+[Calculation Finished with error]+===============
+[m[32m05-23 00:34:10.577 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:34:10.577 [INFO] [     a.m.r.a.Aspects: 28] - stack: [1 2]
+[m[32m05-23 00:34:10.578 [INFO] [     a.m.r.a.Aspects: 46] - stack: [1 2] Detail: Clear
+[m[32m05-23 00:34:10.578 [INFO] [     a.m.r.a.Aspects: 56] - result stack: []
+[m[32m05-23 00:34:10.578 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:34:12.048 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:34:12.048 [INFO] [     a.m.r.a.Aspects: 28] - stack: []
+[m[32m05-23 00:34:12.049 [INFO] [     a.m.r.a.Aspects: 41] - stack: [] Detail: Undo
+[m[32m05-23 00:34:12.051 [INFO] [eportLoggingListener:101] - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-05-22 16:58:06.740 [ERROR] [                 o.s.b.SpringApplication:842] - Application run failed
-java.lang.IllegalStateException: Failed to execute CommandLineRunner
+[m[31m05-23 00:34:12.068 [ERROR] [.b.SpringApplication:842] - Application run failed
+[m java.lang.IllegalStateException: Failed to execute CommandLineRunner
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800) [spring-boot-2.0.2.RELEASE.jar:2.0.2.RELEASE]
 	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:781) [spring-boot-2.0.2.RELEASE.jar:2.0.2.RELEASE]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-2.0.2.RELEASE.jar:2.0.2.RELEASE]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255) [spring-boot-2.0.2.RELEASE.jar:2.0.2.RELEASE]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243) [spring-boot-2.0.2.RELEASE.jar:2.0.2.RELEASE]
-	at app.mcgg.rpn.RpnApplication.main(RpnApplication.java:20) [classes/:?]
+	at app.mcgg.rpn.RpnApplication.main(RpnApplication.java:21) [classes/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.0.2.RELEASE.jar:2.0.2.RELEASE]
-Caused by: java.lang.NullPointerException
-	at app.mcgg.rpn.processor.StackProcessor.getOperands(StackProcessor.java:26) ~[classes/:?]
+Caused by: java.util.EmptyStackException
+	at java.util.Stack.peek(Stack.java:102) ~[?:?]
+	at java.util.Stack.pop(Stack.java:84) ~[?:?]
+	at app.mcgg.rpn.util.RPNStack.pop(RPNStack.java:24) ~[classes/:?]
+	at app.mcgg.rpn.processor.StackProcessor.undo(StackProcessor.java:39) ~[classes/:?]
 	at app.mcgg.rpn.processor.StackProcessor$$FastClassBySpringCGLIB$$c22e2b8f.invoke(<generated>) ~[classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:52) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
 	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at app.mcgg.rpn.processor.StackProcessor$$EnhancerBySpringCGLIB$$e6e0d31f.getOperands(<generated>) ~[classes/:?]
-	at app.mcgg.rpn.processor.FormulaProcessor.processCalculation(FormulaProcessor.java:60) ~[classes/:?]
-	at app.mcgg.rpn.processor.Calculator.eval(Calculator.java:32) ~[classes/:?]
+	at app.mcgg.rpn.processor.StackProcessor$$EnhancerBySpringCGLIB$$64ca1970.undo(<generated>) ~[classes/:?]
+	at app.mcgg.rpn.processor.FormulaProcessor.processOperator(FormulaProcessor.java:43) ~[classes/:?]
+	at app.mcgg.rpn.processor.Calculator.eval(Calculator.java:27) ~[classes/:?]
 	at app.mcgg.rpn.processor.Calculator$$FastClassBySpringCGLIB$$86fcae27.invoke(<generated>) ~[classes/:?]
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
@@ -268,278 +74,197 @@ Caused by: java.lang.NullPointerException
 	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at app.mcgg.rpn.processor.Calculator$$EnhancerBySpringCGLIB$$240ae741.eval(<generated>) ~[classes/:?]
-	at app.mcgg.rpn.RpnApplication.run(RpnApplication.java:32) ~[classes/:?]
+	at app.mcgg.rpn.processor.Calculator$$EnhancerBySpringCGLIB$$99689f18.eval(<generated>) ~[classes/:?]
+	at app.mcgg.rpn.RpnApplication.run(RpnApplication.java:33) ~[classes/:?]
 	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:797) ~[spring-boot-2.0.2.RELEASE.jar:2.0.2.RELEASE]
 	... 10 more
-05-22 16:58:06.746 [INFO] [s.c.a.AnnotationConfigApplicationContext:993] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@5d7d6a9c: startup date [Tue May 22 16:57:56 CST 2018]; root of context hierarchy
-05-22 16:58:06.748 [INFO] [       o.s.j.e.a.AnnotationMBeanExporter:451] - Unregistering JMX-exposed beans on shutdown
-05-22 16:58:26.362 [INFO] [                    a.m.r.RpnApplication: 50] - Starting RpnApplication on CNENZHAOK2L2C with PID 12340 (C:\Users\zhaok2\src\rpn\target\classes started by zhaok2 in C:\Users\zhaok2\src\rpn)
-05-22 16:58:26.368 [INFO] [                    a.m.r.RpnApplication:659] - No active profile set, falling back to default profiles: default
-05-22 16:58:26.435 [INFO] [s.c.a.AnnotationConfigApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2c57bf14: startup date [Tue May 22 16:58:26 CST 2018]; root of context hierarchy
-05-22 16:58:27.472 [INFO] [      o.s.b.d.a.OptionalLiveReloadServer: 57] - LiveReload server is running on port 35729
-05-22 16:58:27.503 [INFO] [       o.s.j.e.a.AnnotationMBeanExporter:433] - Registering beans for JMX exposure on startup
-05-22 16:58:27.519 [INFO] [                    a.m.r.RpnApplication: 59] - Started RpnApplication in 1.849 seconds (JVM running for 4.415)
-05-22 16:58:35.628 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:58:35.659 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 16:58:35.675 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32] Push
-05-22 16:58:35.675 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4] Push
-05-22 16:58:35.675 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5] Push
-05-22 16:58:35.675 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6] Push
-05-22 16:58:35.675 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1] Push
-05-22 16:58:35.675 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4] Push
-05-22 16:58:35.675 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5] Push
-05-22 16:58:35.675 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6] Push
-05-22 16:58:35.675 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5] Push
-05-22 16:58:35.675 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2] Push
-05-22 16:58:35.675 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1] Push
-05-22 16:58:35.675 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1] Push
-05-22 16:58:35.675 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34] Push
-05-22 16:58:35.706 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2 1]	 Detail: 1 Divide 34
-05-22 16:58:35.706 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 0.0294117647] Push
-05-22 16:58:35.706 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2]	 Detail: 1 Divide 0.0294117647058824
-05-22 16:58:35.706 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 33.9999999999] Push
-05-22 16:58:35.706 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5]	 Detail: 2 Multiply 33.9999999999999
-05-22 16:58:35.706 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 67.9999999999] Push
-05-22 16:58:35.706 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 5 Multiply 67.9999999999998
-05-22 16:58:35.706 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 339.9999999999] Push
-05-22 16:58:35.722 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 339.9999999999990 Sqrt 
-05-22 16:58:35.722 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 18.4390889145] Push
-05-22 16:58:35.722 [INFO] [                         a.m.r.a.Aspects: 38] - stack: 32 4 5 6 1 4 5 6 18.4390889145 Undo
-05-22 16:58:35.722 [WARN] [                         a.m.r.a.Aspects: 60] - null
-05-22 16:58:35.722 [WARN] [                         a.m.r.a.Aspects: 61] - stack: [32 4 5 6 1 4 5 6 339.9999999999]
-05-22 16:58:35.722 [WARN] [                         a.m.r.a.Aspects: 62] - =============+[Calculation Finished with error]+===============
-05-22 16:58:35.722 [INFO] [ConditionEvaluationReportLoggingListener:101] - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-05-22 16:58:35.743 [ERROR] [                 o.s.b.SpringApplication:842] - Application run failed
-java.lang.IllegalStateException: Failed to execute CommandLineRunner
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800) [spring-boot-2.0.2.RELEASE.jar:2.0.2.RELEASE]
-	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:781) [spring-boot-2.0.2.RELEASE.jar:2.0.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) [spring-boot-2.0.2.RELEASE.jar:2.0.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255) [spring-boot-2.0.2.RELEASE.jar:2.0.2.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243) [spring-boot-2.0.2.RELEASE.jar:2.0.2.RELEASE]
-	at app.mcgg.rpn.RpnApplication.main(RpnApplication.java:20) [classes/:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.0.2.RELEASE.jar:2.0.2.RELEASE]
-Caused by: java.lang.NullPointerException
-	at app.mcgg.rpn.processor.StackProcessor.getOperands(StackProcessor.java:26) ~[classes/:?]
-	at app.mcgg.rpn.processor.StackProcessor$$FastClassBySpringCGLIB$$c22e2b8f.invoke(<generated>) ~[classes/:?]
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at app.mcgg.rpn.processor.StackProcessor$$EnhancerBySpringCGLIB$$556bfc79.getOperands(<generated>) ~[classes/:?]
-	at app.mcgg.rpn.processor.FormulaProcessor.processCalculation(FormulaProcessor.java:59) ~[classes/:?]
-	at app.mcgg.rpn.processor.Calculator.eval(Calculator.java:32) ~[classes/:?]
-	at app.mcgg.rpn.processor.Calculator$$FastClassBySpringCGLIB$$86fcae27.invoke(<generated>) ~[classes/:?]
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:746) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:52) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:174) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:52) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.0.6.RELEASE.jar:5.0.6.RELEASE]
-	at app.mcgg.rpn.processor.Calculator$$EnhancerBySpringCGLIB$$ef7d716b.eval(<generated>) ~[classes/:?]
-	at app.mcgg.rpn.RpnApplication.run(RpnApplication.java:32) ~[classes/:?]
-	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:797) ~[spring-boot-2.0.2.RELEASE.jar:2.0.2.RELEASE]
-	... 10 more
-05-22 16:58:35.746 [INFO] [s.c.a.AnnotationConfigApplicationContext:993] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2c57bf14: startup date [Tue May 22 16:58:26 CST 2018]; root of context hierarchy
-05-22 16:58:35.746 [INFO] [       o.s.j.e.a.AnnotationMBeanExporter:451] - Unregistering JMX-exposed beans on shutdown
-05-22 16:59:09.500 [INFO] [                    a.m.r.RpnApplication: 50] - Starting RpnApplication on CNENZHAOK2L2C with PID 19460 (C:\Users\zhaok2\src\rpn\target\classes started by zhaok2 in C:\Users\zhaok2\src\rpn)
-05-22 16:59:09.504 [INFO] [                    a.m.r.RpnApplication:659] - No active profile set, falling back to default profiles: default
-05-22 16:59:09.559 [INFO] [s.c.a.AnnotationConfigApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2cf1660f: startup date [Tue May 22 16:59:09 CST 2018]; root of context hierarchy
-05-22 16:59:11.200 [INFO] [      o.s.b.d.a.OptionalLiveReloadServer: 57] - LiveReload server is running on port 35729
-05-22 16:59:11.238 [INFO] [       o.s.j.e.a.AnnotationMBeanExporter:433] - Registering beans for JMX exposure on startup
-05-22 16:59:11.261 [INFO] [                    a.m.r.RpnApplication: 59] - Started RpnApplication in 2.369 seconds (JVM running for 4.117)
-05-22 16:59:17.294 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:59:17.320 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 16:59:17.338 [WARN] [                         a.m.r.a.Aspects: 60] - operator //calculate(operator); (position: 0): invalid operator
-05-22 16:59:17.339 [WARN] [                         a.m.r.a.Aspects: 61] - stack: []
-05-22 16:59:17.340 [WARN] [                         a.m.r.a.Aspects: 62] - =============+[Calculation Finished with error]+===============
-05-22 16:59:21.330 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:59:21.331 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 16:59:21.333 [INFO] [                         a.m.r.a.Aspects: 43] - stack: [] Clear
-05-22 16:59:21.334 [INFO] [                         a.m.r.a.Aspects: 53] - result stack: []
-05-22 16:59:21.334 [INFO] [                         a.m.r.a.Aspects: 54] - =============+[Calculation Finished]+===============
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32] Push
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4] Push
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5] Push
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6] Push
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1] Push
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4] Push
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5] Push
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6] Push
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5] Push
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2] Push
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1] Push
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1] Push
-05-22 16:59:33.759 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34] Push
-05-22 16:59:33.792 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2 1]	 Detail: 1 Divide 34
-05-22 16:59:33.792 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 0.0294117647] Push
-05-22 16:59:33.793 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2]	 Detail: 1 Divide 0.0294117647058824
-05-22 16:59:33.793 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 33.9999999999] Push
-05-22 16:59:33.797 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5]	 Detail: 2 Multiply 33.9999999999999
-05-22 16:59:33.798 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 67.9999999999] Push
-05-22 16:59:33.798 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 5 Multiply 67.9999999999998
-05-22 16:59:33.798 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 339.9999999999] Push
-05-22 16:59:33.802 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 339.9999999999990 Sqrt 
-05-22 16:59:33.803 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 18.4390889145] Push
-05-22 16:59:33.804 [INFO] [                         a.m.r.a.Aspects: 38] - stack: 32 4 5 6 1 4 5 6 18.4390889145 Undo
-05-22 16:59:33.804 [INFO] [                         a.m.r.a.Aspects: 38] - stack: 32 4 5 6 1 4 5 6 339.9999999999 Undo
-05-22 16:59:33.808 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 5 Add 67.9999999999998
-05-22 16:59:33.808 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 72.9999999999] Push
-05-22 16:59:33.811 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5]	 Detail: 6 Subtract 72.9999999999998
-05-22 16:59:33.812 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 -67] Push
-05-22 16:59:33.812 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4]	 Detail: 5 Subtract -66.9999999999998
-05-22 16:59:33.812 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 71.9999999999] Push
-05-22 16:59:33.813 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4]	 Detail: 71.9999999999998 Sqrt 
-05-22 16:59:33.814 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 8.4852813742] Push
-05-22 16:59:33.814 [INFO] [                         a.m.r.a.Aspects: 53] - result stack: [32 4 5 6 1 4 8.4852813742]
-05-22 16:59:33.814 [INFO] [                         a.m.r.a.Aspects: 54] - =============+[Calculation Finished]+===============
-05-22 17:01:17.377 [INFO] [                    a.m.r.RpnApplication: 50] - Starting RpnApplication on CNENZHAOK2L2C with PID 5784 (C:\Users\zhaok2\src\rpn\target\classes started by zhaok2 in C:\Users\zhaok2\src\rpn)
-05-22 17:01:17.382 [INFO] [                    a.m.r.RpnApplication:659] - No active profile set, falling back to default profiles: default
-05-22 17:01:17.454 [INFO] [s.c.a.AnnotationConfigApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@712b9428: startup date [Tue May 22 17:01:17 CST 2018]; root of context hierarchy
-05-22 17:01:18.717 [INFO] [      o.s.b.d.a.OptionalLiveReloadServer: 57] - LiveReload server is running on port 35729
-05-22 17:01:18.756 [INFO] [       o.s.j.e.a.AnnotationMBeanExporter:433] - Registering beans for JMX exposure on startup
-05-22 17:01:18.777 [INFO] [                    a.m.r.RpnApplication: 59] - Started RpnApplication in 1.925 seconds (JVM running for 3.764)
-05-22 17:01:21.455 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 17:01:21.469 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 17:01:21.482 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [1] Push
-05-22 17:01:21.483 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [1 2] Push
-05-22 17:01:21.511 [INFO] [                         a.m.r.a.Aspects: 33] - stack: []	 Detail: 1 Add 2
-05-22 17:01:21.511 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [3] Push
-05-22 17:01:21.512 [INFO] [                         a.m.r.a.Aspects: 53] - result stack: [3]
-05-22 17:01:21.513 [INFO] [                         a.m.r.a.Aspects: 54] - =============+[Calculation Finished]+===============
-05-22 17:01:41.569 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 17:01:41.569 [INFO] [                         a.m.r.a.Aspects: 25] - stack: [3]
-05-22 17:01:41.569 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [3 2] Push
-05-22 17:01:41.569 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [3]	 Detail: 2 Sqrt 
-05-22 17:01:41.569 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [3 1.4142135623] Push
-05-22 17:01:41.569 [INFO] [                         a.m.r.a.Aspects: 53] - result stack: [3 1.4142135623]
-05-22 17:01:41.569 [INFO] [                         a.m.r.a.Aspects: 54] - =============+[Calculation Finished]+===============
-05-22 17:01:46.309 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 17:01:46.309 [INFO] [                         a.m.r.a.Aspects: 25] - stack: [3 1.4142135623]
-05-22 17:01:46.309 [INFO] [                         a.m.r.a.Aspects: 43] - stack: [3 1.4142135623] Clear
-05-22 17:01:46.309 [INFO] [                         a.m.r.a.Aspects: 53] - result stack: []
-05-22 17:01:46.309 [INFO] [                         a.m.r.a.Aspects: 54] - =============+[Calculation Finished]+===============
-05-22 17:04:10.263 [INFO] [                    a.m.r.RpnApplication: 50] - Starting RpnApplication on CNENZHAOK2L2C with PID 19960 (C:\Users\zhaok2\src\rpn\target\classes started by zhaok2 in C:\Users\zhaok2\src\rpn)
-05-22 17:04:10.268 [INFO] [                    a.m.r.RpnApplication:659] - No active profile set, falling back to default profiles: default
-05-22 17:04:10.358 [INFO] [s.c.a.AnnotationConfigApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@268b4a27: startup date [Tue May 22 17:04:10 CST 2018]; root of context hierarchy
-05-22 17:04:11.817 [INFO] [      o.s.b.d.a.OptionalLiveReloadServer: 57] - LiveReload server is running on port 35729
-05-22 17:04:11.847 [INFO] [       o.s.j.e.a.AnnotationMBeanExporter:433] - Registering beans for JMX exposure on startup
-05-22 17:04:11.861 [INFO] [                    a.m.r.RpnApplication: 59] - Started RpnApplication in 2.346 seconds (JVM running for 4.176)
-05-22 17:04:17.232 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 17:04:17.240 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 17:04:17.250 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32] Push
-05-22 17:04:17.250 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4] Push
-05-22 17:04:17.250 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5] Push
-05-22 17:04:17.251 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6] Push
-05-22 17:04:17.251 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1] Push
-05-22 17:04:17.251 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4] Push
-05-22 17:04:17.252 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5] Push
-05-22 17:04:17.252 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6] Push
-05-22 17:04:17.252 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5] Push
-05-22 17:04:17.252 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2] Push
-05-22 17:04:17.253 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1] Push
-05-22 17:04:17.253 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1] Push
-05-22 17:04:17.253 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34] Push
-05-22 17:04:17.275 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2 1]	 Detail: 1 Divide 34
-05-22 17:04:17.276 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 0.0294117647] Push
-05-22 17:04:17.277 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2]	 Detail: 1 Divide 0.0294117647058824
-05-22 17:04:17.277 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 33.9999999999] Push
-05-22 17:04:17.281 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5]	 Detail: 2 Multiply 33.9999999999999
-05-22 17:04:17.282 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 67.9999999999] Push
-05-22 17:04:17.283 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 5 Multiply 67.9999999999998
-05-22 17:04:17.283 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 339.9999999999] Push
-05-22 17:04:17.287 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 339.9999999999990 Sqrt 
-05-22 17:04:17.288 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 18.4390889145] Push
-05-22 17:04:17.288 [INFO] [                         a.m.r.a.Aspects: 38] - stack: 32 4 5 6 1 4 5 6 18.4390889145 Undo
-05-22 17:04:17.288 [INFO] [                         a.m.r.a.Aspects: 38] - stack: 32 4 5 6 1 4 5 6 339.9999999999 Undo
-05-22 17:04:17.292 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 5 Add 67.9999999999998
-05-22 17:04:17.292 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 72.9999999999] Push
-05-22 17:04:17.295 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5]	 Detail: 6 Subtract 72.9999999999998
-05-22 17:04:17.296 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 -67] Push
-05-22 17:04:17.296 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4]	 Detail: 5 Subtract -66.9999999999998
-05-22 17:04:17.297 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 71.9999999999] Push
-05-22 17:04:17.297 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4]	 Detail: 71.9999999999998 Sqrt 
-05-22 17:04:17.298 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 8.4852813742] Push
-05-22 17:04:17.298 [INFO] [                         a.m.r.a.Aspects: 53] - result stack: [32 4 5 6 1 4 8.4852813742]
-05-22 17:04:17.299 [INFO] [                         a.m.r.a.Aspects: 54] - =============+[Calculation Finished]+===============
-05-22 17:05:00.263 [INFO] [                    a.m.r.RpnApplication: 50] - Starting RpnApplication on CNENZHAOK2L2C with PID 5260 (C:\Users\zhaok2\src\rpn\target\classes started by zhaok2 in C:\Users\zhaok2\src\rpn)
-05-22 17:05:00.269 [INFO] [                    a.m.r.RpnApplication:659] - No active profile set, falling back to default profiles: default
-05-22 17:05:00.328 [INFO] [s.c.a.AnnotationConfigApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7b7a0917: startup date [Tue May 22 17:05:00 CST 2018]; root of context hierarchy
-05-22 17:05:01.972 [INFO] [      o.s.b.d.a.OptionalLiveReloadServer: 57] - LiveReload server is running on port 35729
-05-22 17:05:01.987 [INFO] [       o.s.j.e.a.AnnotationMBeanExporter:433] - Registering beans for JMX exposure on startup
-05-22 17:05:02.003 [INFO] [                    a.m.r.RpnApplication: 59] - Started RpnApplication in 2.324 seconds (JVM running for 4.141)
-05-22 17:05:12.976 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 17:05:12.985 [INFO] [                         a.m.r.a.Aspects: 25] - stack: []
-05-22 17:05:12.993 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32] Push
-05-22 17:05:12.994 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4] Push
-05-22 17:05:12.996 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5] Push
-05-22 17:05:12.996 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6] Push
-05-22 17:05:12.997 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1] Push
-05-22 17:05:12.997 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4] Push
-05-22 17:05:12.997 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5] Push
-05-22 17:05:12.998 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6] Push
-05-22 17:05:12.998 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5] Push
-05-22 17:05:12.998 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2] Push
-05-22 17:05:12.998 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1] Push
-05-22 17:05:12.999 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1] Push
-05-22 17:05:12.999 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 1 34] Push
-05-22 17:05:13.020 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2 1]	 Detail: 1 Divide 34
-05-22 17:05:13.020 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 1 0.0294117647] Push
-05-22 17:05:13.021 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5 2]	 Detail: 1 Divide 0.0294117647058824
-05-22 17:05:13.021 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 2 33.9999999999] Push
-05-22 17:05:13.026 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6 5]	 Detail: 2 Multiply 33.9999999999999
-05-22 17:05:13.028 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 5 67.9999999999] Push
-05-22 17:05:13.028 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 5 Multiply 67.9999999999998
-05-22 17:05:13.028 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 339.9999999999] Push
-05-22 17:05:13.032 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 339.9999999999990 Sqrt 
-05-22 17:05:13.033 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 18.4390889145] Push
-05-22 17:05:13.033 [INFO] [                         a.m.r.a.Aspects: 38] - stack: 32 4 5 6 1 4 5 6 18.4390889145 Undo
-05-22 17:05:13.034 [INFO] [                         a.m.r.a.Aspects: 38] - stack: 32 4 5 6 1 4 5 6 339.9999999999 Undo
-05-22 17:05:13.036 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5 6]	 Detail: 5 Add 67.9999999999998
-05-22 17:05:13.037 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 6 72.9999999999] Push
-05-22 17:05:13.040 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4 5]	 Detail: 6 Subtract 72.9999999999998
-05-22 17:05:13.040 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 5 -67] Push
-05-22 17:05:13.041 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4]	 Detail: 5 Subtract -66.9999999999998
-05-22 17:05:13.041 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 71.9999999999] Push
-05-22 17:05:13.042 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1 4]	 Detail: 71.9999999999998 Sqrt 
-05-22 17:05:13.042 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 4 8.4852813742] Push
-05-22 17:05:13.043 [INFO] [                         a.m.r.a.Aspects: 53] - result stack: [32 4 5 6 1 4 8.4852813742]
-05-22 17:05:13.044 [INFO] [                         a.m.r.a.Aspects: 54] - =============+[Calculation Finished]+===============
-05-22 17:05:35.606 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 17:05:35.606 [INFO] [                         a.m.r.a.Aspects: 25] - stack: [32 4 5 6 1 4 8.4852813742]
-05-22 17:05:35.606 [WARN] [                         a.m.r.a.Aspects: 60] - operator fasdfasdfsdfsdf (position: 40): invalid operator
-05-22 17:05:35.606 [WARN] [                         a.m.r.a.Aspects: 61] - stack: [32 4 5 6 1 4 8.4852813742]
-05-22 17:05:35.606 [WARN] [                         a.m.r.a.Aspects: 62] - =============+[Calculation Finished with error]+===============
-05-22 17:05:43.198 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 17:05:43.198 [INFO] [                         a.m.r.a.Aspects: 25] - stack: [32 4 5 6 1 4 8.4852813742]
-05-22 17:05:43.198 [WARN] [                         a.m.r.a.Aspects: 60] - operator /// (position: 40): invalid operator
-05-22 17:05:43.198 [WARN] [                         a.m.r.a.Aspects: 61] - stack: [32 4 5 6 1 4 8.4852813742]
-05-22 17:05:43.198 [WARN] [                         a.m.r.a.Aspects: 62] - =============+[Calculation Finished with error]+===============
-05-22 17:05:45.299 [INFO] [                         a.m.r.a.Aspects: 24] - =============+[Start Calculating]+===============
-05-22 17:05:45.299 [INFO] [                         a.m.r.a.Aspects: 25] - stack: [32 4 5 6 1 4 8.4852813742]
-05-22 17:05:45.299 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6 1]	 Detail: 4 Divide 8.48528137423856
-05-22 17:05:45.299 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 1 0.4714045207] Push
-05-22 17:05:45.299 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5 6]	 Detail: 1 Divide 0.471404520791032
-05-22 17:05:45.299 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 6 2.1213203435] Push
-05-22 17:05:45.299 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4 5]	 Detail: 6 Divide 2.12132034355964
-05-22 17:05:45.299 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 5 2.8284271247] Push
-05-22 17:05:45.299 [INFO] [                         a.m.r.a.Aspects: 33] - stack: [32 4]	 Detail: 5 Divide 2.82842712474619
-05-22 17:05:45.299 [INFO] [                         a.m.r.a.Aspects: 48] - stack: [32 4 1.7677669529] Push
-05-22 17:05:45.299 [INFO] [                         a.m.r.a.Aspects: 53] - result stack: [32 4 1.7677669529]
-05-22 17:05:45.299 [INFO] [                         a.m.r.a.Aspects: 54] - =============+[Calculation Finished]+===============
+[32m05-23 00:34:12.075 [INFO] [igApplicationContext:993] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@25fbc5f9: startup date [Wed May 23 00:28:57 CST 2018]; root of context hierarchy
+[m[32m05-23 00:34:12.076 [INFO] [otationMBeanExporter:451] - Unregistering JMX-exposed beans on shutdown
+[m[32m05-23 00:37:16.919 [INFO] [a.m.r.RpnApplication: 50] - Starting RpnApplication on m.local with PID 25860 (/Users/mcgg/IdeaProjects/rpn/target/classes started by mcgg in /Users/mcgg/IdeaProjects/rpn)
+[m[32m05-23 00:37:16.921 [INFO] [a.m.r.RpnApplication:659] - No active profile set, falling back to default profiles: default
+[m[32m05-23 00:37:16.949 [INFO] [igApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@608ec391: startup date [Wed May 23 00:37:16 CST 2018]; root of context hierarchy
+[m[32m05-23 00:37:17.553 [INFO] [onalLiveReloadServer: 57] - LiveReload server is running on port 35729
+[m[32m05-23 00:37:17.571 [INFO] [otationMBeanExporter:433] - Registering beans for JMX exposure on startup
+[m[32m05-23 00:37:17.584 [INFO] [a.m.r.RpnApplication: 59] - Started RpnApplication in 0.831 seconds (JVM running for 6.561)
+[m[32m05-23 00:37:27.302 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:37:27.308 [INFO] [     a.m.r.a.Aspects: 28] - stack: []
+[m[32m05-23 00:37:27.314 [INFO] [     a.m.r.a.Aspects: 41] - stack: [] Detail: Undo
+[m[34m05-23 00:37:27.314 [WARN] [     a.m.r.a.Aspects: 63] - operator undo (position: 0): insufficient operands
+[m[34m05-23 00:37:27.315 [WARN] [     a.m.r.a.Aspects: 64] - stack: []
+[m[34m05-23 00:37:27.315 [WARN] [     a.m.r.a.Aspects: 65] - =============+[Calculation Finished with error]+===============
+[m[32m05-23 00:37:40.760 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:37:40.761 [INFO] [     a.m.r.a.Aspects: 28] - stack: []
+[m[32m05-23 00:37:40.761 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1] Detail: Push
+[m[32m05-23 00:37:40.762 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2] Detail: Push
+[m[32m05-23 00:37:40.762 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3] Detail: Push
+[m[32m05-23 00:37:40.763 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3 4] Detail: Push
+[m[32m05-23 00:37:40.763 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3 4 5] Detail: Push
+[m[32m05-23 00:37:40.768 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1 2 3] Detail: 4 Divide 5
+[m[32m05-23 00:37:40.768 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3 0.8] Detail: Push
+[m[32m05-23 00:37:40.772 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1 2] Detail: 3 Add 0.8
+[m[32m05-23 00:37:40.772 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3.8] Detail: Push
+[m[32m05-23 00:37:40.773 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3.8 0] Detail: Push
+[m[32m05-23 00:37:40.773 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1 2] Detail: 3.8 Divide 0
+[m[34m05-23 00:37:40.773 [WARN] [     a.m.r.a.Aspects: 63] - operator / (position: 15): Cannot divide by 0!
+[m[34m05-23 00:37:40.774 [WARN] [     a.m.r.a.Aspects: 64] - stack: [1 2]
+[m[34m05-23 00:37:40.774 [WARN] [     a.m.r.a.Aspects: 65] - =============+[Calculation Finished with error]+===============
+[m[32m05-23 00:38:38.653 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:38:38.655 [INFO] [     a.m.r.a.Aspects: 28] - stack: [1 2]
+[m[32m05-23 00:38:38.656 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 1] Detail: Push
+[m[32m05-23 00:38:38.657 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 1 2] Detail: Push
+[m[32m05-23 00:38:38.658 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 1 2 3] Detail: Push
+[m[32m05-23 00:38:38.662 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1 2 1] Detail: 2 Multiply 3
+[m[32m05-23 00:38:38.662 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 1 6] Detail: Push
+[m[32m05-23 00:38:38.663 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 1 6 5] Detail: Push
+[m[32m05-23 00:38:38.663 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1 2 1] Detail: 6 Add 5
+[m[32m05-23 00:38:38.663 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 1 11] Detail: Push
+[m[32m05-23 00:38:38.664 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1 2] Detail: 1 Multiply 11
+[m[32m05-23 00:38:38.664 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 11] Detail: Push
+[m[32m05-23 00:38:38.664 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1] Detail: 2 Multiply 11
+[m[32m05-23 00:38:38.665 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 22] Detail: Push
+[m[32m05-23 00:38:38.665 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 22 6] Detail: Push
+[m[32m05-23 00:38:38.665 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 22 6 5] Detail: Push
+[m[32m05-23 00:38:38.666 [INFO] [     a.m.r.a.Aspects: 56] - result stack: [1 22 6 5]
+[m[32m05-23 00:38:38.666 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:38:40.509 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:38:40.510 [INFO] [     a.m.r.a.Aspects: 28] - stack: [1 22 6 5]
+[m[32m05-23 00:38:40.510 [INFO] [     a.m.r.a.Aspects: 46] - stack: [1 22 6 5] Detail: Clear
+[m[32m05-23 00:38:40.511 [INFO] [     a.m.r.a.Aspects: 56] - result stack: []
+[m[32m05-23 00:38:40.511 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:38:43.736 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:38:43.737 [INFO] [     a.m.r.a.Aspects: 28] - stack: []
+[m[32m05-23 00:38:43.738 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1] Detail: Push
+[m[32m05-23 00:38:43.740 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2] Detail: Push
+[m[32m05-23 00:38:43.741 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3] Detail: Push
+[m[32m05-23 00:38:43.742 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1] Detail: 2 Multiply 3
+[m[32m05-23 00:38:43.742 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 6] Detail: Push
+[m[32m05-23 00:38:43.742 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 6 5] Detail: Push
+[m[32m05-23 00:38:43.743 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1] Detail: 6 Add 5
+[m[32m05-23 00:38:43.743 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 11] Detail: Push
+[m[32m05-23 00:38:43.744 [INFO] [     a.m.r.a.Aspects: 36] - stack: [] Detail: 1 Multiply 11
+[m[32m05-23 00:38:43.744 [INFO] [     a.m.r.a.Aspects: 51] - stack: [11] Detail: Push
+[m[34m05-23 00:38:43.744 [WARN] [     a.m.r.a.Aspects: 63] - operator * (position: 15): insufficient operands
+[m[34m05-23 00:38:43.745 [WARN] [     a.m.r.a.Aspects: 64] - stack: [11]
+[m[34m05-23 00:38:43.745 [WARN] [     a.m.r.a.Aspects: 65] - =============+[Calculation Finished with error]+===============
+[m[32m05-23 00:39:22.444 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:39:22.444 [INFO] [     a.m.r.a.Aspects: 28] - stack: [11]
+[m[32m05-23 00:39:22.445 [INFO] [     a.m.r.a.Aspects: 41] - stack: [11] Detail: Undo
+[m[32m05-23 00:39:22.445 [INFO] [     a.m.r.a.Aspects: 56] - result stack: [1 11]
+[m[32m05-23 00:39:22.445 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:39:25.124 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:39:25.124 [INFO] [     a.m.r.a.Aspects: 28] - stack: [1 11]
+[m[32m05-23 00:39:25.125 [INFO] [     a.m.r.a.Aspects: 41] - stack: [1 11] Detail: Undo
+[m[32m05-23 00:39:25.125 [INFO] [     a.m.r.a.Aspects: 56] - result stack: [1 6 5]
+[m[32m05-23 00:39:25.125 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:39:26.244 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:39:26.244 [INFO] [     a.m.r.a.Aspects: 28] - stack: [1 6 5]
+[m[32m05-23 00:39:26.245 [INFO] [     a.m.r.a.Aspects: 41] - stack: [1 6 5] Detail: Undo
+[m[32m05-23 00:39:26.245 [INFO] [     a.m.r.a.Aspects: 56] - result stack: [1 6]
+[m[32m05-23 00:39:26.245 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:39:27.236 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:39:27.236 [INFO] [     a.m.r.a.Aspects: 28] - stack: [1 6]
+[m[32m05-23 00:39:27.237 [INFO] [     a.m.r.a.Aspects: 41] - stack: [1 6] Detail: Undo
+[m[32m05-23 00:39:27.237 [INFO] [     a.m.r.a.Aspects: 56] - result stack: [1 2 3]
+[m[32m05-23 00:39:27.237 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:39:28.172 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:39:28.172 [INFO] [     a.m.r.a.Aspects: 28] - stack: [1 2 3]
+[m[32m05-23 00:39:28.173 [INFO] [     a.m.r.a.Aspects: 41] - stack: [1 2 3] Detail: Undo
+[m[32m05-23 00:39:28.173 [INFO] [     a.m.r.a.Aspects: 56] - result stack: [1 2]
+[m[32m05-23 00:39:28.173 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:39:29.107 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:39:29.108 [INFO] [     a.m.r.a.Aspects: 28] - stack: [1 2]
+[m[32m05-23 00:39:29.109 [INFO] [     a.m.r.a.Aspects: 41] - stack: [1 2] Detail: Undo
+[m[32m05-23 00:39:29.109 [INFO] [     a.m.r.a.Aspects: 56] - result stack: [1]
+[m[32m05-23 00:39:29.109 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:39:31.683 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:39:31.685 [INFO] [     a.m.r.a.Aspects: 28] - stack: [1]
+[m[32m05-23 00:39:31.685 [INFO] [     a.m.r.a.Aspects: 41] - stack: [1] Detail: Undo
+[m[32m05-23 00:39:31.686 [INFO] [     a.m.r.a.Aspects: 56] - result stack: []
+[m[32m05-23 00:39:31.686 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:39:32.851 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:39:32.852 [INFO] [     a.m.r.a.Aspects: 28] - stack: []
+[m[32m05-23 00:39:32.852 [INFO] [     a.m.r.a.Aspects: 41] - stack: [] Detail: Undo
+[m[34m05-23 00:39:32.853 [WARN] [     a.m.r.a.Aspects: 63] - operator undo (position: 20): insufficient operands
+[m[34m05-23 00:39:32.853 [WARN] [     a.m.r.a.Aspects: 64] - stack: []
+[m[34m05-23 00:39:32.853 [WARN] [     a.m.r.a.Aspects: 65] - =============+[Calculation Finished with error]+===============
+[m[32m05-23 00:40:06.101 [INFO] [igApplicationContext:993] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@608ec391: startup date [Wed May 23 00:37:16 CST 2018]; root of context hierarchy
+[m[32m05-23 00:40:14.048 [INFO] [a.m.r.RpnApplication: 50] - Starting RpnApplication on m.local with PID 25887 (/Users/mcgg/IdeaProjects/rpn/target/classes started by mcgg in /Users/mcgg/IdeaProjects/rpn)
+[m[32m05-23 00:40:14.051 [INFO] [a.m.r.RpnApplication:659] - No active profile set, falling back to default profiles: default
+[m[32m05-23 00:40:14.080 [INFO] [igApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@35b7565b: startup date [Wed May 23 00:40:14 CST 2018]; root of context hierarchy
+[m[32m05-23 00:40:14.682 [INFO] [onalLiveReloadServer: 57] - LiveReload server is running on port 35729
+[m[32m05-23 00:40:14.701 [INFO] [otationMBeanExporter:433] - Registering beans for JMX exposure on startup
+[m[32m05-23 00:40:14.713 [INFO] [a.m.r.RpnApplication: 59] - Started RpnApplication in 0.826 seconds (JVM running for 6.544)
+[m[32m05-23 00:40:26.205 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:40:26.212 [INFO] [     a.m.r.a.Aspects: 28] - stack: []
+[m[32m05-23 00:40:26.218 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1] Detail: Push
+[m[32m05-23 00:40:26.218 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2] Detail: Push
+[m[32m05-23 00:40:26.219 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3] Detail: Push
+[m[32m05-23 00:40:26.226 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1] Detail: 2 Multiply 3
+[m[32m05-23 00:40:26.227 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 6] Detail: Push
+[m[32m05-23 00:40:26.227 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 6 5] Detail: Push
+[m[32m05-23 00:40:26.231 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1] Detail: 6 Add 5
+[m[32m05-23 00:40:26.232 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 11] Detail: Push
+[m[32m05-23 00:40:26.232 [INFO] [     a.m.r.a.Aspects: 36] - stack: [] Detail: 1 Multiply 11
+[m[32m05-23 00:40:26.232 [INFO] [     a.m.r.a.Aspects: 51] - stack: [11] Detail: Push
+[m[34m05-23 00:40:26.233 [WARN] [     a.m.r.a.Aspects: 63] - operator * (position: 15): insufficient operands
+[m[34m05-23 00:40:26.233 [WARN] [     a.m.r.a.Aspects: 64] - stack: [11]
+[m[34m05-23 00:40:26.234 [WARN] [     a.m.r.a.Aspects: 65] - =============+[Calculation Finished with error]+===============
+[m[32m05-23 00:40:27.889 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:40:27.890 [INFO] [     a.m.r.a.Aspects: 28] - stack: [11]
+[m[32m05-23 00:40:27.890 [INFO] [     a.m.r.a.Aspects: 41] - stack: [11] Detail: Undo
+[m[32m05-23 00:40:27.891 [INFO] [     a.m.r.a.Aspects: 56] - result stack: [1 11]
+[m[32m05-23 00:40:27.891 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:40:32.313 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:40:32.314 [INFO] [     a.m.r.a.Aspects: 28] - stack: [1 11]
+[m[32m05-23 00:40:32.314 [INFO] [     a.m.r.a.Aspects: 41] - stack: [1 11] Detail: Undo
+[m[32m05-23 00:40:32.314 [INFO] [     a.m.r.a.Aspects: 56] - result stack: [1 6 5]
+[m[32m05-23 00:40:32.315 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:40:33.498 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:40:33.499 [INFO] [     a.m.r.a.Aspects: 28] - stack: [1 6 5]
+[m[32m05-23 00:40:33.499 [INFO] [     a.m.r.a.Aspects: 46] - stack: [1 6 5] Detail: Clear
+[m[32m05-23 00:40:33.499 [INFO] [     a.m.r.a.Aspects: 56] - result stack: []
+[m[32m05-23 00:40:33.500 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:40:35.385 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:40:35.386 [INFO] [     a.m.r.a.Aspects: 28] - stack: []
+[m[32m05-23 00:40:35.386 [INFO] [     a.m.r.a.Aspects: 41] - stack: [] Detail: Undo
+[m[34m05-23 00:40:35.387 [WARN] [     a.m.r.a.Aspects: 63] - operator undo (position: 0): insufficient operands
+[m[34m05-23 00:40:35.387 [WARN] [     a.m.r.a.Aspects: 64] - stack: []
+[m[34m05-23 00:40:35.387 [WARN] [     a.m.r.a.Aspects: 65] - =============+[Calculation Finished with error]+===============
+[m[32m05-23 00:43:43.843 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:43:43.843 [INFO] [     a.m.r.a.Aspects: 28] - stack: []
+[m[32m05-23 00:43:43.843 [INFO] [     a.m.r.a.Aspects: 46] - stack: [] Detail: Clear
+[m[32m05-23 00:43:43.844 [INFO] [     a.m.r.a.Aspects: 56] - result stack: []
+[m[32m05-23 00:43:43.844 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:43:46.273 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:43:46.274 [INFO] [     a.m.r.a.Aspects: 28] - stack: []
+[m[32m05-23 00:43:46.274 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1] Detail: Push
+[m[32m05-23 00:43:46.275 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2] Detail: Push
+[m[32m05-23 00:43:46.275 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 2 3] Detail: Push
+[m[32m05-23 00:43:46.276 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1] Detail: 2 Multiply 3
+[m[32m05-23 00:43:46.276 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 6] Detail: Push
+[m[32m05-23 00:43:46.276 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 6 5] Detail: Push
+[m[32m05-23 00:43:46.276 [INFO] [     a.m.r.a.Aspects: 36] - stack: [1] Detail: 6 Add 5
+[m[32m05-23 00:43:46.277 [INFO] [     a.m.r.a.Aspects: 51] - stack: [1 11] Detail: Push
+[m[32m05-23 00:43:46.278 [INFO] [     a.m.r.a.Aspects: 36] - stack: [] Detail: 1 Multiply 11
+[m[32m05-23 00:43:46.278 [INFO] [     a.m.r.a.Aspects: 51] - stack: [11] Detail: Push
+[m[34m05-23 00:43:46.279 [WARN] [     a.m.r.a.Aspects: 63] - operator * (position: 15): insufficient operands
+[m[34m05-23 00:43:46.279 [WARN] [     a.m.r.a.Aspects: 64] - stack: [11]
+[m[34m05-23 00:43:46.279 [WARN] [     a.m.r.a.Aspects: 65] - =============+[Calculation Finished with error]+===============
+[m[32m05-23 00:43:48.954 [INFO] [     a.m.r.a.Aspects: 27] - =============+[Start Calculating]+===============
+[m[32m05-23 00:43:48.954 [INFO] [     a.m.r.a.Aspects: 28] - stack: [11]
+[m[32m05-23 00:43:48.955 [INFO] [     a.m.r.a.Aspects: 51] - stack: [11 1] Detail: Push
+[m[32m05-23 00:43:48.955 [INFO] [     a.m.r.a.Aspects: 56] - result stack: [11 1]
+[m[32m05-23 00:43:48.956 [INFO] [     a.m.r.a.Aspects: 57] - =============+[Calculation Finished]+===============
+[m[32m05-23 00:48:23.550 [INFO] [igApplicationContext:993] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@35b7565b: startup date [Wed May 23 00:40:14 CST 2018]; root of context hierarchy
+[m[32m05-23 00:55:52.170 [INFO] [tContextBootstrapper:308] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [app.mcgg.rpn.RpnApplicationTests], using SpringBootContextLoader
+[m[32m05-23 00:55:52.180 [INFO] [bstractContextLoader:264] - Could not detect default resource locations for test class [app.mcgg.rpn.RpnApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+[m[32m05-23 00:55:52.181 [INFO] [igContextLoaderUtils: 83] - Could not detect default configuration classes for test class [app.mcgg.rpn.RpnApplicationTests]: RpnApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[m[32m05-23 00:55:52.281 [INFO] [tContextBootstrapper:244] - Found @SpringBootConfiguration app.mcgg.rpn.RpnApplication for test class app.mcgg.rpn.RpnApplicationTests
+[m[32m05-23 00:55:52.371 [INFO] [tContextBootstrapper:248] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[m[32m05-23 00:55:52.383 [INFO] [tContextBootstrapper:177] - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@acb0951, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5bf22f18, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@267f474e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7a7471ce, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@28276e50, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@62e70ea3, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3efe7086, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@675d8c96, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@741b3bc3]
+[m[32m05-23 00:55:52.628 [INFO] [.RpnApplicationTests: 50] - Starting RpnApplicationTests on m.local with PID 26055 (started by mcgg in /Users/mcgg/IdeaProjects/rpn)
+[m[32m05-23 00:55:52.629 [INFO] [.RpnApplicationTests:659] - No active profile set, falling back to default profiles: default
+[m[32m05-23 00:55:52.650 [INFO] [igApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@29539e36: startup date [Wed May 23 00:55:52 CST 2018]; root of context hierarchy
+[m[32m05-23 00:55:53.455 [INFO] [.RpnApplicationTests: 59] - Started RpnApplicationTests in 1.037 seconds (JVM running for 7.218)
+[m[32m05-23 00:55:56.014 [INFO] [igApplicationContext:993] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@29539e36: startup date [Wed May 23 00:55:52 CST 2018]; root of context hierarchy
+[m

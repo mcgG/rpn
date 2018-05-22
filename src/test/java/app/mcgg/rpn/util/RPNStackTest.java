@@ -1,13 +1,10 @@
 package app.mcgg.rpn.util;
 
-import jdk.nashorn.api.tree.NewTree;
+import app.mcgg.rpn.testUtil.Reflection;
 import org.junit.Test;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 
-import java.lang.reflect.Field;
 import java.math.BigDecimal;
-import java.util.Arrays;
 import java.util.EmptyStackException;
 import java.util.Stack;
 
@@ -24,17 +21,18 @@ public class RPNStackTest {
     public void testClear() {
         stack.push(new BigDecimal(1.0));
         stack.clear();
-        assert(stack.isEmpty() == true);
+        assert(stack.isEmpty());
     }
 
     @Test
+    @SuppressWarnings("unchecked")
     public void testPopWithUndoOperation() throws NoSuchFieldException, IllegalAccessException {
 
         stack.push(new BigDecimal(1.0));
         stack.pop(true);
 
-        Stack<BigDecimal> privateStack = (Stack<BigDecimal>) getField(stack, "stack").get(stack);
-        Stack<BigDecimal> privateHistory = (Stack<BigDecimal>) getField(stack, "history").get(stack);
+        Stack<BigDecimal> privateStack = (Stack<BigDecimal>) Reflection.getFieldObject(stack, "stack");
+        Stack<BigDecimal> privateHistory = (Stack<BigDecimal>) Reflection.getFieldObject(stack, "history");
         assert(privateStack.size() == 0 && privateHistory.size() == 0);
     }
 
@@ -48,8 +46,8 @@ public class RPNStackTest {
         stack.push(new BigDecimal(1.0));
         stack.pop(false);
 
-        Stack<BigDecimal> privateStack = (Stack<BigDecimal>) getField(stack, "stack").get(stack);
-        Stack<BigDecimal> privateHistory = (Stack<BigDecimal>) getField(stack, "history").get(stack);
+        Stack<BigDecimal> privateStack = (Stack<BigDecimal>) Reflection.getFieldObject(stack, "stack");
+        Stack<BigDecimal> privateHistory = (Stack<BigDecimal>) Reflection.getFieldObject(stack, "history");
         Stack<BigDecimal> shouldBe = new Stack<>();
         shouldBe.add(null);
         shouldBe.add(new BigDecimal(1.0));
@@ -72,9 +70,9 @@ public class RPNStackTest {
 
     @Test
     public void testIsEmpty() {
-        assert(stack.isEmpty() == true);
+        assert(stack.isEmpty());
         stack.push(new BigDecimal(1));
-        assert(stack.isEmpty() == false);
+        assert(!stack.isEmpty());
     }
 
     @Test
@@ -84,9 +82,4 @@ public class RPNStackTest {
         assert(stack.size() == 1);
     }
 
-    private Field getField(Object obj, String name) throws NoSuchFieldException {
-        Field field = obj.getClass().getDeclaredField(name);
-        field.setAccessible(true);
-        return field;
-    }
 }

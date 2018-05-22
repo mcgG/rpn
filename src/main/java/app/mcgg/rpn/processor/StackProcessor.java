@@ -14,7 +14,7 @@ public class StackProcessor {
     private RPNStack stack;
 
     public boolean checkOperandQuantity(Operator op) {
-        return op.getRequiredOperandsNumber() > stack.size() ? false : true;
+        return op.getRequiredOperandsNumber() <= stack.size();
     }
 
     public void push(BigDecimal rs) {

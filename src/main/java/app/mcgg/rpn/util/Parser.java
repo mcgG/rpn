@@ -1,4 +1,4 @@
-package app.mcgg.rpn.processor;
+package app.mcgg.rpn.util;
 
 import org.springframework.stereotype.Service;
 

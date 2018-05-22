@@ -19,21 +19,19 @@ public class Aspects {
     @Autowired
     private StackProcessor stackProcessor;
 
-    @Before("execution(* app.mcgg.rpn.Calculator.*(..)) && args(formula,..)")
+    @Before("execution(* app.mcgg.rpn.processor.Calculator.*(..)) && args(formula,..)")
     public void beforeCalculation(JoinPoint joinPoint, String formula) throws Exception {
-        String classType = joinPoint.getTarget().getClass().getName();
-        Class<?> clazz = Class.forName(classType);
-        String clazzName = clazz.getSimpleName();
         logger.info("=============+[Start Calculating]+===============");
-        logger.info("[Aspect] : " +clazzName + " [stack]: " + stackProcessor.getStackString());
+        logger.info("stack: [" + stackProcessor.getStackString()+"]");
+        logger.info("stack: [%s]");
     }
 
-    @Before("execution(* app.mcgg.rpn.operator.*.calculate(..)) && args(a, b,..)")
-    public void beforeOperation(JoinPoint joinPoint, BigDecimal a, BigDecimal b) throws Exception {
+    @After("execution(* app.mcgg.rpn.operator.*.calculate(..)) && args(x, y,..)")
+    public void beforeOperation(JoinPoint joinPoint, BigDecimal x, BigDecimal y) throws Exception {
         String classType = joinPoint.getTarget().getClass().getName();
         Class<?> clazz = Class.forName(classType);
         String clazzName = clazz.getSimpleName();
-        logger.info("stack: " + stackProcessor.getStackString() + "\t Detail: " +  a + " " + clazzName + " " + (b!=null?b:"") );
+        logger.info("stack: [" + stackProcessor.getStackString() + "]\t Detail: " + x + " " + clazzName + " " + (y!=null?y:"") );
     }
 
     @Before("execution(* app.mcgg.rpn.processor.StackProcessor.undo(..))")
@@ -43,20 +41,25 @@ public class Aspects {
 
     @Before("execution(* app.mcgg.rpn.processor.StackProcessor.clear(..))")
     public void beforeClear(JoinPoint joinPoint) {
-        logger.info("stack: " + stackProcessor.getStackString() + "Clear");
+        logger.info("stack: [" + stackProcessor.getStackString() + "] Clear");
     }
 
-    @AfterReturning(pointcut="execution(* app.mcgg.rpn.Calculator.*(..))", returning="returnValue")
+    @After("execution(* app.mcgg.rpn.processor.StackProcessor.push(..)) && args(n,..)")
+    public void beforePush(JoinPoint joinPoint, BigDecimal n) {
+        logger.info("stack: [" + stackProcessor.getStackString() + "] Push");
+    }
+
+    @AfterReturning(pointcut="execution(* app.mcgg.rpn.processor.Calculator.*(..))", returning="returnValue")
     public void afterCalculation(JoinPoint joinPoint, String returnValue) throws Exception {
-        logger.info("result: " + returnValue);
+        logger.info("result stack: [" + returnValue + "]");
         logger.info("=============+[Calculation Finished]+===============");
         System.out.println("stack: " + returnValue);
     }
 
-    @AfterThrowing(pointcut="execution(* app.mcgg.rpn.Calculator.eval(..))", throwing="e")
+    @AfterThrowing(pointcut="execution(* app.mcgg.rpn.processor.Calculator.eval(..))", throwing="e")
     public void afterCalculationThrowing(JoinPoint joinPoint, Exception e) {
         logger.warn(e.getMessage());
-        logger.warn("stack: " + stackProcessor.getStackString());
+        logger.warn("stack: [" + stackProcessor.getStackString() + "]");
         logger.warn("=============+[Calculation Finished with error]+===============");
         System.out.println(e.getMessage());
         System.out.println("stack: " + stackProcessor.getStackString());

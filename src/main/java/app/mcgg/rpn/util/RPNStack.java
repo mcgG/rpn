@@ -1,9 +1,6 @@
 package app.mcgg.rpn.util;
 
-import app.mcgg.rpn.operator.Operator;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
@@ -43,10 +40,6 @@ public class RPNStack {
         sp++;
     }
 
-    public Stack<BigDecimal> getStack() {
-        return stack;
-    }
-
     public int getSp() {
         return sp;
     }
@@ -60,15 +53,13 @@ public class RPNStack {
     }
 
     public String toString() {
-        ArrayList<Object> arrayList = new ArrayList<>(Arrays.asList(stack.toArray()));
-        for (int i=0; i<arrayList.size(); i++) {
-            arrayList.set(i,((BigDecimal) arrayList.get(i))
+        ArrayList<String> arrayList = new ArrayList<>();
+        for (Object o : Arrays.asList(stack.toArray())) {
+            arrayList.add( ( (BigDecimal) o )
                     .setScale(10, RoundingMode.FLOOR)
                     .stripTrailingZeros()
-                    .toPlainString());
+                    .toPlainString() );
         }
-       String rs = arrayList.toString();
-       return rs.substring(1, rs.length()-1);
-
+        return String.join(" ", arrayList);
     }
 }

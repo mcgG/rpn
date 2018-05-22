@@ -1,5 +1,6 @@
 package app.mcgg.rpn;
 
+import app.mcgg.rpn.exception.CalculatorException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -25,8 +26,10 @@ public class RpnApplication implements CommandLineRunner {
 
         while (scanner.hasNext()) {
             String formula = scanner.nextLine();
-            calculator.eval(formula);
-
+            try {
+                calculator.eval(formula);
+            } catch (CalculatorException e) {
+            }
             System.out.println("Enter: ");
         }
 //        String formula = "1 2 3 + sqrt 5 + 1 2 3 undo undo undo undo undo clear 3.2 9 /";

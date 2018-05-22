@@ -1,0 +1,9 @@
+[32m05-22 00:30:09.945 [INFO] [s.c.a.AnnotationConfigApplicationContext:993] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@30acc3d1: startup date [Mon May 21 23:28:11 CST 2018]; root of context hierarchy
+[m[32m05-22 00:30:09.952 [INFO] [       o.s.j.e.a.AnnotationMBeanExporter:451] - Unregistering JMX-exposed beans on shutdown
+[m[32m05-22 00:30:15.046 [INFO] [                    a.m.r.RpnApplication: 50] - Starting RpnApplication on m.local with PID 21430 (/Users/mcgg/IdeaProjects/rpn/target/classes started by mcgg in /Users/mcgg/IdeaProjects/rpn)
+[m[32m05-22 00:30:15.046 [INFO] [                    a.m.r.RpnApplication:659] - No active profile set, falling back to default profiles: default
+[m[32m05-22 00:30:15.048 [INFO] [s.c.a.AnnotationConfigApplicationContext:590] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@37fd675: startup date [Tue May 22 00:30:15 CST 2018]; root of context hierarchy
+[m[32m05-22 00:30:15.236 [INFO] [      o.s.b.d.a.OptionalLiveReloadServer: 57] - LiveReload server is running on port 35729
+[m[32m05-22 00:30:15.242 [INFO] [       o.s.j.e.a.AnnotationMBeanExporter:433] - Registering beans for JMX exposure on startup
+[m[32m05-22 00:30:15.247 [INFO] [                    a.m.r.RpnApplication: 59] - Started RpnApplication in 5.233 seconds (JVM running for 5304.303)
+[m

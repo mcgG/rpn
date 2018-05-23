@@ -29,19 +29,19 @@ public class Aspects {
     }
 
     @After("execution(* app.mcgg.rpn.operator.*.calculate(..)) && args(x, y,..)")
-    public void beforeOperation(JoinPoint joinPoint, BigDecimal x, BigDecimal y) throws Exception {
+    public void afterOperation(JoinPoint joinPoint, BigDecimal x, BigDecimal y) throws Exception {
         String classType = joinPoint.getTarget().getClass().getName();
         Class<?> clazz = Class.forName(classType);
         String clazzName = clazz.getSimpleName();
         logger.info(String.format("stack: [%s] Detail: %s %s %s", stackProcessor.getStackString(), x, clazzName, (y!=null?y:"")));
     }
 
-    @Before("execution(* app.mcgg.rpn.processor.StackProcessor.undo(..))")
+    @After("execution(* app.mcgg.rpn.processor.StackProcessor.undo(..))")
     public void beforeUndo(JoinPoint joinPoint) {
         logger.info(String.format("stack: [%s] Detail: Undo", stackProcessor.getStackString()));
     }
 
-    @Before("execution(* app.mcgg.rpn.processor.StackProcessor.clear(..))")
+    @After("execution(* app.mcgg.rpn.processor.StackProcessor.clear(..))")
     public void beforeClear(JoinPoint joinPoint) {
         logger.info(String.format("stack: [%s] Detail: Clear", stackProcessor.getStackString()));
     }

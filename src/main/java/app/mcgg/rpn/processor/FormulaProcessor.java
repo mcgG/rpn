@@ -14,8 +14,22 @@ import java.util.EmptyStackException;
 @Service
 public class FormulaProcessor {
 
+    /**
+     * Parser:
+     * A tool to parse double value
+     */
     private Parser parser;
+
+    /**
+     * BeanCache:
+     * Where cached all operator instances
+     */
     private BeanCache lookup;
+
+    /**
+     *  StackProcessor:
+     *  A tool to interact with RPNStack
+     */
     private StackProcessor stackProcessor;
 
     public FormulaProcessor(Parser parser, BeanCache lookup, StackProcessor stackProcessor) {
@@ -24,6 +38,15 @@ public class FormulaProcessor {
         this.stackProcessor = stackProcessor;
     }
 
+    /**
+     *
+     * @param element
+     * @return Decimal value or null
+     * @throws CalculatorException
+     *
+     * If element is a number then return it and push it into RPNStack
+     * If element is not a number then return null
+     */
     protected BigDecimal processElement(String element) throws CalculatorException {
         BigDecimal value = parser.parseDouble(element);
         if (value != null) {
@@ -32,6 +55,14 @@ public class FormulaProcessor {
         return value;
     }
 
+    /**
+     *
+     * @param operator
+     * @return operator
+     * @throws CalculatorException
+     *
+     *  Try to get operator instance and handle undo, clear manipulation
+     */
     protected String processOperator(String operator) throws CalculatorException {
 
         Operator op = lookup.getMap().get(operator);
@@ -39,7 +70,7 @@ public class FormulaProcessor {
             throw new CalculatorException(operator, stackProcessor.getSP(), "invalid operator");
         }
 
-        // Undo operator to judge
+        // Undo
         if (operator.equals("undo")) {
             try {
                 stackProcessor.undo();
@@ -61,6 +92,12 @@ public class FormulaProcessor {
         return operator;
     }
 
+    /**
+     *
+     * @param operator
+     * @return Result String
+     * @throws CalculatorException
+     */
     protected BigDecimal processCalculation(String operator) throws CalculatorException {
         Operator op = lookup.getMap().get(operator);
         BigDecimal[] operands = stackProcessor.getOperands(op);

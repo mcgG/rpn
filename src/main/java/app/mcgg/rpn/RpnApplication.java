@@ -25,16 +25,16 @@ public class RpnApplication implements CommandLineRunner {
     public void run(String... args) {
 
         Scanner scanner = new Scanner(System.in);
-//        System.out.println("Please enter rpn formula: ");
+//      System.out.println("Please enter rpn formula: ");
 
         while (scanner.hasNext()) {
             String formula = scanner.nextLine();
             try {
                 calculator.eval(formula);
             } catch (CalculatorException e) {
-                // Exception has been already handle by Aspect
+                // Exception has been handled by Aspect already
             }
-//            System.out.println("Please enter rpn formula: ");
+//          System.out.println("Please enter rpn formula: ");
         }
     }
 }

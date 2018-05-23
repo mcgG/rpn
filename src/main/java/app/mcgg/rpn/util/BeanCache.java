@@ -1,15 +1,16 @@
 package app.mcgg.rpn.util;
 
 import app.mcgg.rpn.operator.Operator;
-import app.mcgg.rpn.util.ApplicationContextProvider;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
+
+/**
+ *
+ *  This bean is to load all operator instances into a HashMap.
+ */
 
 @Component
 public class BeanCache {

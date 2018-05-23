@@ -9,6 +9,6 @@ AC:
 * Added customized properties for supported operators and decimal precision
 
 ps:\
-I am learning java right now, and this is my first time using spring boot framework and AOP Concept, and I have pushed this code to my github(github.com/mcgg), it will be great if you can kindly add some comments on it.
+I am learning java right now, this is my first time using spring boot framework, and I have pushed this code to my github(github.com/mcgg/rpn), it will be great if you can kindly add some comments on it.
 
  

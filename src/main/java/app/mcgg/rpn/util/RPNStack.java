@@ -10,8 +10,19 @@ import java.util.Stack;
 @Component
 public class RPNStack {
 
+    /**
+     *  Main stack
+     */
     private Stack<BigDecimal> stack = new Stack<>();
+
+    /**
+     *  History stack to store history
+     */
     private Stack<BigDecimal> history = new Stack<>();
+
+    /**
+     *  Stack Pointer to mark the position
+     */
     private int sp = 0;
 
     public void clear() {

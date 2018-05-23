@@ -6,7 +6,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
-
+/**
+ *  Enable ApplicationContextAware to get all Beans managed by Spring framework,
+ *  this is used by BeanCache bean
+ */
 @Component
 public class ApplicationContextProvider implements ApplicationContextAware {
 

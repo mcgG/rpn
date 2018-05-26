@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>rpn</name>
-    <description>Test for Airwallex</description>
+    <description>rpn</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
